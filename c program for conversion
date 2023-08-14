@@ -1,0 +1,9 @@
+#include <stdio.h>
+main()
+{ 
+    int y=20;
+    float x;
+    x=y;
+    printf("value of x=%F",x);
+}
+ 
