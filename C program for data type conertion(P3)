@@ -1,0 +1,13 @@
+#include <stdio.h>
+main()
+{ 
+  float CH,FH;
+  printf("enter th tempreture in FH=");
+  scanf("%f",&FH);
+  
+  CH=(FH-32)* 5/9 ;
+  
+  printf("CH =%0.2f",CH);
+}
+
+ 
