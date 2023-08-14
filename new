@@ -1,0 +1,43 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+main()
+{
+    
+    printf("Welome to A R K P \n");
+    
+    int exp;
+    printf("Enter your exp : ");
+    scanf( "%d",&exp );
+    
+  
+    
+     
+        if(exp >= 3)
+        {
+            printf("U r eligible for  interview\n");
+              int degree;
+             printf("Enter your degree, for ME enter 1 and B.E enter 2 : ");
+            scanf( "%d",&degree );
+              
+              if (degree ==1)
+              {
+                  printf("come today for   interview"); 
+              }
+              else
+              {
+                    printf("come tomoorow for   interview"); 
+              }
+              
+              
+              
+            
+        }
+        else
+        {
+            printf("U r not eligible for  interview");
+        }
+        
+       printf("\n Thank you"); 
+        
+   
+}
