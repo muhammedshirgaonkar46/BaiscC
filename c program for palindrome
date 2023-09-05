@@ -1,0 +1,26 @@
+#include <stdio.h>
+main()
+{
+    int i,n,q;
+    int rem,rev=0,userno;
+    printf("enter any four digit number=");
+    scanf("%d",&n);
+    userno=n;
+    for(i=1;n>0;i++)
+    {
+        rem=n%10;
+        rev=(rev*10)+rem;
+        q=n/10;
+        n=q;
+    }
+    printf("reverse number= %d\n",rev);
+    if(userno==rev)
+    {
+        printf("the number is palindrome");
+    }
+    else
+    {
+        printf("the number is not palindrome");
+    }
+    
+}
