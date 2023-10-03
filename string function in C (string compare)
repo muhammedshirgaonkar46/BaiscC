@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include<string.h>
+main()
+{
+    char str2[10]="hello";
+    char str1[10]="hello";
+    
+    if(strcmp(str1,str2)==0)
+    {
+        printf("both string are same ");
+        
+    }
+    else
+    {
+        printf("both are not same");
+    }
+}
