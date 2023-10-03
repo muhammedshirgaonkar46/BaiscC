@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include<string.h>
+main()
+{
+  
+    char firstname[15]="muhammed ";
+    char lastname[20]="shirgaonkar";
+    printf("name is %s",strcat(firstname,lastname));
+}
