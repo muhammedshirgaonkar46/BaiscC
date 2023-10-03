@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+main()
+{
+    char name[20];
+    printf("enter your name:");
+    gets(name);
+    int i=0;
+    while(name[i]!='\0')
+    {
+        i++;
+        
+    }
+    printf("length of string is %d",i);
+}
