@@ -1,0 +1,9 @@
+
+#include <stdio.h>
+main()
+{
+    char name[10]="muhammed";
+    int i=  strlen(name);
+    printf("name is %d",i);
+}
+
