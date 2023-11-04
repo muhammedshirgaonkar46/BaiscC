@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#define sum(a,b)a+b
+void main() 
+{
+   int add;
+   add = sum(10,5);
+   printf("*********************\n");
+   printf("Addition is %d\n",add);    
+   printf("*********************");
+
+}
