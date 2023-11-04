@@ -1,0 +1,23 @@
+#include <stdio.h>
+ struct college
+ {
+     int collegeid;
+     char collegename[20];
+ };
+ struct student
+ {
+     int rollno;
+     char sname[20];
+     struct college c;
+ };
+ void main()
+ {  
+     struct student s={11,"ahmed",569,"kalseker"};
+    printf("\n roll no is %d",s.rollno);
+    printf("\n student name %s",s.sname);
+    printf("\n college is %d",s.c.collegeid);
+    printf("\n college name is %s",s.c.collegename);
+    
+ }
+ 
+
