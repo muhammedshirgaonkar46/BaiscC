@@ -1,0 +1,45 @@
+
+
+#include<stdio.h>
+struct student
+{
+  char name [15];
+  char c[10];
+  int per;
+}s[3];
+void main()
+{
+    int i;
+    for(i=0;i<3;i++)
+    {
+        printf("enter the name,c,per\n");
+        printf("----Please write the details below----\n");
+        scanf("%s%s%d",&s[i].name,&s[i].c,&s[i].per);
+    }
+    for(i=0;i<3;i++)
+    {
+     printf("%s%s%d",s[i].name,s[i].c,s[i].per);   
+    }
+}
+
+#include<stdio.h>
+int fact(int n)
+{
+if (n==1)
+{
+    return 1;
+}
+else
+{
+    return n*fact(n-1);
+}
+}
+main()
+{
+    int n;
+    printf("enter the no.");
+    scanf("%d",&n);
+    int result;
+    result=fact(n);
+    printf("fact is %d",result);
+}
