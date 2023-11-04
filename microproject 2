@@ -1,0 +1,20 @@
+#include <stdio.h>
+void fun1();
+void fun2();
+#pragma startup fun1
+#pragma exit fun2
+
+void main ()
+{
+    printf("Inside Main");
+}
+
+void fun1()
+{
+     printf("Inside Fun1");
+}
+
+void fun2()
+{
+     printf("Inside Fun2");
+}
